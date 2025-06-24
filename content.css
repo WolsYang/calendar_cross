@@ -1,0 +1,28 @@
+.past-date-crossed {
+    position: relative;
+    overflow: hidden; /* Avoid over flow */
+
+}
+
+.past-date-crossed .red-cross-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Avoid affect clict event */
+    opacity: 0.6; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.past-date-crossed .red-cross-overlay svg line {
+    stroke-width: 8; /* Line windth, for cross more clearly */
+}
+
+.next-month-marked {
+    position: relative; 
+    overflow: hidden;
+    background-color: rgba(0, 100, 0, 0.1); 
+}

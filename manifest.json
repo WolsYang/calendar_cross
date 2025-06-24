@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Google Calendar Past Date Marker",
+  "version": "1.0",
+  "description": "Marks past dates on Google Calendar.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://calendar.google.com/calendar/u/0/r/month/*",
+        "https://calendar.google.com/calendar/u/0/r/year/*"  
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["images/red_cross.png", "images/green_circle.png"], 
+      "matches": ["https://calendar.google.com/*"]
+    }
+  ]
+}
