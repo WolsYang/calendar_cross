@@ -5,11 +5,9 @@
 ## If you think this stuff is worth it, you can buy me a beer in paypal if you want.
 
 # How to use??
-```sh 
-# 1. Download calendar_cross.crx in Releases
-# 2. Enter this url in chrome chrome://extensions/
-# 3. Drag and drop calendar_cross.crx into chrome://extensions/ page
-# 4. Chrome will notice you to install this extension
+```sh
+Direct install from chrome extention.
+https://chromewebstore.google.com/detail/google-calendar-past-date/efflmaejjbjbkcfhhogallbhjlnbofgi
 ```
 ![Month view](https://github.com/WolsYang/calendar_cross/blob/master/images/example_month_view.png?raw=true)
 ![Year view](https://github.com/WolsYang/calendar_cross/blob/master/images/example_year_view.png?raw=true)
